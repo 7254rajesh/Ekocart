@@ -10,7 +10,7 @@ import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import CartPage from "./components/CartPage";
 import Checkout from "./components/Checkout";
-import { auth } from "./components/firebase";
+import { auth } from "./components/Firebase";
 import { onAuthStateChanged } from "firebase/auth";
 
 function App() {
