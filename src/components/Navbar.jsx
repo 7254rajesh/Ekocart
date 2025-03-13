@@ -7,7 +7,7 @@ import { FiSmartphone, FiShoppingCart } from "react-icons/fi";
 import { VscSearch } from "react-icons/vsc";
 import CartSidebar from "./CartSidebar";
 import { signOut } from "firebase/auth"; 
-import { auth } from "./firebase"; 
+import { auth } from "./Firebase"; 
 
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
